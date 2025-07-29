@@ -1,0 +1,41 @@
+UNIFIED MEDICAL QA EVALUATION REPORT
+==================================================
+
+Generated: 2025-07-29 08:57:51
+Total Questions Evaluated: 1000
+
+TRADITIONAL METRICS:
+--------------------
+avg_rouge1_f1: 0.5450
+avg_rouge2_f1: 0.0000
+avg_rougeL_f1: 0.5450
+avg_rouge1_precision: 0.5450
+avg_rouge1_recall: 0.5450
+avg_rouge2_precision: 0.0000
+avg_rouge2_recall: 0.0000
+avg_rougeL_precision: 0.5450
+avg_rougeL_recall: 0.5450
+
+LLM-BASED METRICS:
+--------------------
+avg_answer_relevancy_score: 0.5280
+answer_relevancy_score_skipped: 0.0000
+avg_context_adherence_score: 0.6886
+context_adherence_score_skipped: 0.0000
+avg_context_relevancy_avg_score: 0.2081
+context_relevancy_avg_score_skipped: 0.0000
+
+ERROR ANALYSIS:
+--------------------
+low_similarity_count: 0
+low_similarity_rate: 0.0
+retrieval_fail_qa_success_count: 541
+retrieval_success_qa_fail_count: 0
+llm_traditional_disagreement_count: 441
+llm_traditional_disagreement_rate: 0.441
+
+RECOMMENDATIONS:
+--------------------
+- Low retrieval recall suggests need for better context retrieval
+- Low answer relevancy suggests answers may be off-topic
+- Low context adherence suggests answers may contain unsupported information
